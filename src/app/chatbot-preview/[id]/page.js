@@ -29,7 +29,7 @@ export default function ChatbotPreview({ params }) {
 
   useEffect(() => {
     if (!currentUser) {
-      router.push('/login');
+      router.push('/auth/login');
       return;
     }
 

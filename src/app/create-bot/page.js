@@ -65,7 +65,7 @@ export default function CreateBot() {
 
   const handleSubmit = async () => {
     if (!currentUser) {
-      router.push('/login');
+      router.push('/auth/login');
       return;
     }
 
